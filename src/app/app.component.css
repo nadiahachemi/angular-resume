@@ -1,0 +1,20 @@
+ul.menu{
+display:flex;
+width: 100%;
+justify-content:space-evenly;
+}
+
+ul.menu li{
+    list-style: none;
+}
+ul.menu li a{
+color: black;
+text-decoration: none;
+padding: .5rem;
+text-transform: uppercase;
+}
+
+ul.menu li a:hover{
+    border-bottom: solid 1.2rem #00000069;
+    transition: all .3s;
+}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from "../../node_modules/@angular/router";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'resume-angular';
+  title = "nadia's resume";
+  constructor( public myRouterSer: Router) {}
+  ngOnInit(){
+   
+      console.log("We are having blah blah blah");
+   
+  }
 }
